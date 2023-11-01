@@ -1,0 +1,53 @@
+# Q1: Create a list of squares from 1 to 10 using list comprehension.
+sq1 = [x**2 for x in range(1, 11)]
+print("list of squares from 1 to 10 is ",sq1)
+
+# Q2: Create a list of even numbers from 1 to 20 using list comprehension.
+
+eve = [x for x in range(1, 21) if x % 2 == 0]
+print('even numbers from 1 to 20 ',eve)
+
+# Q 3: Create a list of the first 10 multiples of 4 using list comprehension.
+
+m = [x * 4 for x in range(1, 11)]
+print('first 10 multiples of 4 ',m)
+
+# Q 4: Given a list of words, create a new list containing the lengths of each word.
+
+w = ["apple", "banana", "cherry", "date"]
+word_lengths = [len(word) for word in w]
+print('containing the lengths of each word ',word_lengths)
+
+# Q 5: Create a list of the squares of even numbers from 1 to 20 using list comprehension.
+
+sq2 = [x**2 for x in range(1, 21) if x % 2 == 0]
+print('even numbers from 1 to 20 ',sq2)
+
+# Q 6: Given a list of numbers, create a new list with only the positive numbers.
+
+num = [-2, 4, -7, 9, -1, 0, 3]
+p = [x for x in num if x > 0]
+print('only the positive numbers ',p)
+
+# Q 7: Create a list of the first 10 powers of 2 (2^0 to 2^9) using list comprehension.
+
+power = [2**x for x in range(10)]
+print('10 powers of 2 ',power)
+
+# Q 8: Given a list of names, create a new list with only the names that start with the letter 'A'.
+
+names = ["Amar", "Abhjit", "Rahul", "Pushkar", "Ashwin"]
+a_names = [name for name in names if name.startswith("A")]
+print('names that start with the letter A ',a_names)
+
+# Q 9: Create a list of all the vowels in a given string.
+
+text = "hello world"
+vowels = [char for char in text if char in "aeiouAEIOU"]
+print('vowels in a given string ',vowels)
+
+# Q 10: Given a list of numbers, create a new list with the squares of positive numbers and the absolute values of negative numbers.
+
+num2 = [-2, 4, -7, 9, -1, 0, 3]
+mod = [x**2 if x > 0 else abs(x) for x in num2]
+print('squares of positive numbers and the absolute values of negative numbers ',mod)

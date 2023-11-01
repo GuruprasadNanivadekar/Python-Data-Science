@@ -1,0 +1,77 @@
+
+#If loop:
+#Ex 1:
+num = 15550
+if num % 2 == 0:
+    print("number is even.")
+print("-------------------------------------------------------------")
+#Ex 2:
+wheels = 4
+if wheels == 4:
+    print("Vehicle is a 4 wheeler.")
+print("-------------------------------------------------------------")
+#Ex 3:
+marks = 55
+if marks >= 40:
+    print("Congratulations you are pass.")
+print("-------------------------------------------------------------")
+#--------------------------------------------------------------------------
+
+#if else
+
+#Ex 1:
+num = 155
+if num % 2 == 0:
+    print("number is even.")
+else:
+    print("number is odd")
+print("-------------------------------------------------------------")
+#Ex 2:
+num2 = -7
+if num >= 0:
+    print("Number is a positive number.")
+else:
+    print("Number is a negative number.")
+print("-------------------------------------------------------------")
+#Ex 3:
+marks = 30
+if marks >= 40:
+    print("Congratulations you are pass.")
+else:
+    print("Better luck next time")
+print("-------------------------------------------------------------")
+#-------------------------------------------------------------
+#el if:
+#Ex 1:
+score = 75
+if score >= 75:
+    print("First class")
+elif score >= 65:
+    print("Second class")
+elif score >= 55:
+    print("Third class")
+else:
+    print("Fail")
+print("-------------------------------------------------------------")
+
+#Ex 2:
+user_role = "admin"
+if user_role == "admin":
+    print("You have full access.")
+elif user_role == "editor":
+    print("You have limited access.")
+elif user_role == "guest":
+    print("You have view-only access.")
+else:
+    print("Unknown role.")
+print("-------------------------------------------------------------")
+
+#Ex 3:
+temperature = 28
+if temperature > 30:
+    print("It's hot outside.")
+elif 20 <= temperature <= 30:
+    print("The weather is pleasant.")
+else:
+    print("It's cold.")
+print("-------------------------------------------------------------")

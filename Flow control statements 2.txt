@@ -1,0 +1,48 @@
+
+for i in range(5,0,-1):
+    print(i*'*')
+print('=========================')
+for i in range(5,0,-1):
+    if i%2 !=0:
+        print(i*'*')
+print('=========================')
+#pattern of alphabets
+for i in range(6):
+    print(chr(65+i))
+print('=========================')
+for i in range(5):
+    print(chr(65+i)*3)
+print('=========================')
+for i in range(4,0,-1):
+    print(i*chr(69-i))
+print('=========================')
+
+#for loop over list
+a = [11,53,55,9,7,77,66,152,111]
+print('divisible by 11')
+for i in a:
+    if i%11 == 0:
+        print(i,end=" ")
+
+
+# apply for loop string
+s = 'This is a trial code '
+print(s.split())
+for chr in range(15):
+    print(s[chr],end='')
+
+#for loop over tuple
+b = ('Tata','MG','Suzuki','Hyundai')
+for i in range(1,4):
+    print(b[i])
+
+#for loop over tuple
+b = ('Tata','MG','Suzuki','Hyundai')
+for i in range(1,4):
+    print(b[i])
+
+# for loop over set
+c = {'Tulip', 'Sunflower', 'Lotus', 'Jasmin'}
+for i in c:
+    print(i, end=' ')
+
